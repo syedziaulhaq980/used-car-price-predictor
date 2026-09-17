@@ -10,7 +10,7 @@
 
 
 
-Built with \*\*Python, Scikit-learn, XGBoost and Streamlit\*\* and deployed on \*\*Render\*\*.
+### Built with \*\*Python, Scikit-learn, XGBoost and Streamlit\*\* and deployed on \*\*Render\*\*.
 
 
 
@@ -38,11 +38,11 @@ Built with \*\*Python, Scikit-learn, XGBoost and Streamlit\*\* and deployed on \
 
 
 
-\---
 
 
 
-\## 📌 About The Project
+
+## 📌 About The Project
 
 
 
@@ -54,29 +54,29 @@ This project uses a trained machine learning model to estimate the price of a us
 
 
 
-\* 🚘 Car title
+* 🚘 Car title
 
-\* 📅 Registration year
+* 📅 Registration year
 
-\* 🛣️ Mileage
+* 🛣️ Mileage
 
-\* 👤 Previous owners
+* 👤 Previous owners
 
-\* ⚙️ Engine size
+* ⚙️ Engine size
+  
+* ⛽ Fuel type
 
-\* ⛽ Fuel type
+* 🚗 Body type
 
-\* 🚗 Body type
+* 🔧 Gearbox
 
-\* 🔧 Gearbox
+* 🚪 Number of doors
 
-\* 🚪 Number of doors
+* 💺 Number of seats
 
-\* 💺 Number of seats
+* 🌱 Emission class
 
-\* 🌱 Emission class
-
-\* 📖 Service history
+* 📖 Service history
 
 
 
@@ -84,11 +84,10 @@ The application provides the predicted price through a clean and simple web inte
 
 
 
-\---
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
@@ -110,11 +109,11 @@ The application provides the predicted price through a clean and simple web inte
 
 
 
-\---
 
 
 
-\## 🧠 Machine Learning
+
+## 🧠 Machine Learning
 
 
 
@@ -122,47 +121,21 @@ The application uses an \*\*XGBoost regression model\*\* inside a Scikit-learn p
 
 
 
-\### Numerical Features
+### Numerical Features
 
 
 
-\* Mileage
+* Mileage
 
-\* Registration Year
+* Registration Year
 
-\* Previous Owners
+* Previous Owners
 
-\* Engine
+* Engine
 
-\* Doors
+* Doors
 
-\* Seats
-
-
-
-These features are processed using:
-
-
-
-\*\*StandardScaler\*\*
-
-
-
-\### Categorical Features
-
-
-
-\* Car Title
-
-\* Fuel Type
-
-\* Body Type
-
-\* Gearbox
-
-\* Emission Class
-
-\* Service History
+* Seats
 
 
 
@@ -170,7 +143,33 @@ These features are processed using:
 
 
 
-\*\*OneHotEncoder\*\*
+*\*StandardScaler\*\*
+
+
+
+### Categorical Features
+
+
+
+* Car Title
+
+* Fuel Type
+
+* Body Type
+
+* Gearbox
+
+* Emission Class
+
+* Service History
+
+
+
+These features are processed using:
+
+
+
+*\*OneHotEncoder\*\*
 
 
 
@@ -178,23 +177,22 @@ The complete trained pipeline is stored in:
 
 
 
-```text
+text
 
 used\_car\_price\_model.pkl
 
-```
 
 
 
-\---
 
 
 
-\## 🔄 How It Works
 
 
+## 🔄 How It Works
 
-```text
+
+text
 
 &#x20;       Vehicle Details
 
@@ -220,7 +218,7 @@ used\_car\_price\_model.pkl
 
 
 
-\### 1️⃣ Enter Vehicle Details
+### 1️⃣ Enter Vehicle Details
 
 
 
@@ -228,15 +226,14 @@ Provide the specifications of the used car.
 
 
 
-\### 2️⃣ Process The Data
-
+### 2️⃣ Process The Data
 
 
 The input data is passed through the same preprocessing pipeline used during model training.
 
 
 
-\### 3️⃣ Generate Prediction
+### 3️⃣ Generate Prediction
 
 
 
@@ -244,7 +241,7 @@ The trained XGBoost model predicts the estimated vehicle price.
 
 
 
-\### 4️⃣ Display Result
+### 4️⃣ Display Result
 
 
 
@@ -252,65 +249,63 @@ The predicted price and vehicle summary are displayed in the application.
 
 
 
-\---
 
 
 
-\## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 
 
-\### Programming Language
+### Programming Language
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\\\&logo=python\\\&logoColor=white)
+[Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\\\&logo=python\\\&logoColor=white)
 
 
 
-\### Machine Learning
+### Machine Learning
 
 
 
-!\[Scikit Learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square\\\&logo=scikit-learn\\\&logoColor=white)
+[Scikit Learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square\\\&logo=scikit-learn\\\&logoColor=white)
 
-!\[XGBoost](https://img.shields.io/badge/XGBoost-Regression-189C38?style=flat-square)
-
-
-
-\### Data Processing
+[XGBoost](https://img.shields.io/badge/XGBoost-Regression-189C38?style=flat-square)
 
 
 
-!\[Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=flat-square\\\&logo=pandas\\\&logoColor=white)
+### Data Processing
 
 
 
-\### Web Application
+[Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=flat-square\\\&logo=pandas\\\&logoColor=white)
 
 
 
-!\[Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?style=flat-square\\\&logo=streamlit\\\&logoColor=white)
+### Web Application
 
 
 
-\### Deployment
+[Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?style=flat-square\\\&logo=streamlit\\\&logoColor=white)
 
 
 
-!\[Render](https://img.shields.io/badge/Render-Deployment-46E3B7?style=flat-square\\\&logo=render\\\&logoColor=black)
+### Deployment
 
 
 
-\---
+[Render](https://img.shields.io/badge/Render-Deployment-46E3B7?style=flat-square\\\&logo=render\\\&logoColor=black)
 
 
 
-\## 📂 Project Structure
 
 
 
-```text
+## 📂 Project Structure
+
+
+
+text
 
 used-car-price-predictor/
 
@@ -330,63 +325,62 @@ used-car-price-predictor/
 
 └── README.md
 
-```
 
 
 
-\---
 
 
 
-\## 💻 Run The Project Locally
+
+
+## 💻 Run The Project Locally
 
 
 
-\### Clone the repository
+### Clone the repository
 
 
 
-```bash
+bash
 
 git clone https://github.com/syedziaulhaq980/used-car-price-predictor.git
 
-```
 
 
 
-\### Open the project folder
+### Open the project folder
 
 
 
-```bash
+bash
 
 cd used-car-price-predictor
 
-```
 
 
 
-\### Install dependencies
+
+### Install dependencies
 
 
 
-```bash
+bash
 
 pip install -r requirements.txt
 
-```
 
 
 
-\### Start the application
+
+### Start the application
 
 
 
-```bash
+bash
 
 streamlit run app1.py
 
-```
+
 
 
 
@@ -394,11 +388,11 @@ The application will open in your browser.
 
 
 
-\---
 
 
 
-\## 🌐 Live Application
+
+## 🌐 Live Application
 
 
 
@@ -410,11 +404,11 @@ Try the deployed application:
 
 
 
-\---
 
 
 
-\## 📸 Application Preview
+
+## 📸 Application Preview
 
 
 
@@ -426,7 +420,7 @@ For example:
 
 
 
-```text
+text
 
 screenshots/
 
@@ -434,7 +428,7 @@ screenshots/
 
 └── prediction.png
 
-```
+
 
 
 
@@ -442,19 +436,19 @@ Then you can display them in this section:
 
 
 
-```markdown
+markdown
 
 !\[Application Screenshot](screenshots/home.png)
 
-```
 
 
 
-\---
 
 
 
-\## 📈 Model Input Features
+
+
+## 📈 Model Input Features
 
 
 
@@ -488,11 +482,10 @@ Then you can display them in this section:
 
 
 
-\---
 
 
 
-\## ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 
 
@@ -504,15 +497,15 @@ Actual market prices may differ depending on factors such as vehicle condition, 
 
 
 
-\---
 
 
 
-\## 👨‍💻 Author
+
+## 👨‍💻 Author
 
 
 
-\### Syed ZiaUl Haq
+### Syed ZiaUl Haq
 
 
 
@@ -524,7 +517,7 @@ Actual market prices may differ depending on factors such as vehicle condition, 
 
 
 
-\---
+
 
 
 
@@ -532,11 +525,11 @@ Actual market prices may differ depending on factors such as vehicle condition, 
 
 
 
-\### 🚗 Used Car Price Predictor
+### 🚗 Used Car Price Predictor
 
 
 
-\*\*Built with Python \& Machine Learning\*\*
+\*Built with Python \& Machine Learning\*\*
 
 
 
