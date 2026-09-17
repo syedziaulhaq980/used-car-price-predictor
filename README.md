@@ -1,8 +1,8 @@
-\# 🚗 Used Car Price Predictor
+# 🚗 Used Car Price Predictor
 
 
 
-\### Machine Learning Powered Vehicle Valuation
+### Machine Learning Powered Vehicle Valuation
 
 
 
