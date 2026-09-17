@@ -143,7 +143,7 @@ These features are processed using:
 
 
 
-*\*StandardScaler\*\*
+**StandardScaler**
 
 
 
@@ -169,7 +169,7 @@ These features are processed using:
 
 
 
-*\*OneHotEncoder\*\*
+**OneHotEncoder**
 
 
 
@@ -179,7 +179,7 @@ The complete trained pipeline is stored in:
 
 text
 
-used\_car\_price\_model.pkl
+used_car_price_model.pkl
 
 
 
@@ -214,7 +214,7 @@ text
 
 &#x20;      Estimated Value
 
-```
+
 
 
 
@@ -400,7 +400,7 @@ Try the deployed application:
 
 
 
-\### 🚗 \[Open AutoValue](https://used-car-price-predictor-1-rvn5.onrender.com/)
+### 🚗 [Open AutoValue](https://used-car-price-predictor-1-rvn5.onrender.com/)
 
 
 
@@ -412,7 +412,7 @@ Try the deployed application:
 
 
 
-Add screenshots of your application here.
+# Add screenshots of your application here.
 
 
 
@@ -438,7 +438,7 @@ Then you can display them in this section:
 
 markdown
 
-!\[Application Screenshot](screenshots/home.png)
+[Application Screenshot](screenshots/home.png)
 
 
 
@@ -529,7 +529,7 @@ Actual market prices may differ depending on factors such as vehicle condition, 
 
 
 
-\*Built with Python \& Machine Learning\*\*
+*Built with Python & Machine Learning*
 
 
 
