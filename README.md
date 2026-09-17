@@ -10,7 +10,7 @@
 
 
 
-### Built with \*\*Python, Scikit-learn, XGBoost and Streamlit\*\* and deployed on \*\*Render\*\*.
+### Built with **Python, Scikit-learn, XGBoost and Streamlit** and deployed on **Render**.
 
 
 
