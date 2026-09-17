@@ -20,7 +20,7 @@
 
 <a href="https://used-car-price-predictor-1-rvn5.onrender.com/">
 
-<img src="https://img.shields.io/badge/🚗%20Live%20Demo-Visit%20App-2563EB?style=for-the-badge">
+<img src="https://img.shields.io/badge/🚗LiveDemo-VisitApp-2563EB?style=for-the-badge">
 
 </a>
 
