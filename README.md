@@ -6,7 +6,7 @@
 
 
 
-A simple and interactive machine learning web application that predicts the estimated price of a used car based on its specifications.
+### A simple and interactive machine learning web application that predicts the estimated price of a used car based on its specifications.
 
 
 
