@@ -117,7 +117,7 @@ The application provides the predicted price through a clean and simple web inte
 
 
 
-The application uses an \*\*XGBoost regression model\*\* inside a Scikit-learn preprocessing pipeline.
+The application uses an **XGBoost regression model** inside a Scikit-learn preprocessing pipeline.
 
 
 
@@ -194,25 +194,25 @@ used_car_price_model.pkl
 
 text
 
-&#x20;       Vehicle Details
+       Vehicle Details
 
-&#x20;             ↓
+             ↓
 
-&#x20;    Data Preprocessing
+    Data Preprocessing
 
-&#x20;             ↓
+            ↓
 
-&#x20;     Machine Learning
+     Machine Learning
 
-&#x20;          Model
+          Model
 
-&#x20;             ↓
+             ↓
 
-&#x20;     Price Prediction
+     Price Prediction
 
-&#x20;             ↓
+             ↓
 
-&#x20;      Estimated Value
+     Estimated Value
 
 
 
